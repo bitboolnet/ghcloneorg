@@ -1,5 +1,5 @@
 #!/bin/bash
-. $(basename $0).rc
+. $(dirname $(realpath $0))/$(basename $0).rc
 
 #requires curl + jq
 #echo $ORG
